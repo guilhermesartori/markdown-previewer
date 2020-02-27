@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  background-color: burlywood;
+  width: 100vw;
+  min-height: 200vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#editor {
+  width: 40vw;
+  height: 40vh;
+  margin-bottom: 5vh;
+  background-color: whitesmoke;
+}
+
+#preview {
+  width: 50vw;
+  height: 150vh;
+  background-color: whitesmoke;
+  padding: 3vmax;
+}
+
+#preview code {
+  background: white;
+  padding: 1px 4px 2px 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#preview pre {
+  background: white;
+  padding: 5px 0 5px 5px;
+}
